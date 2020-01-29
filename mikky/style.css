@@ -1,0 +1,281 @@
+
+
+title {
+	display: inline;
+}
+
+* {
+	display: block;
+}
+
+circle1 {
+	
+	background-color: rgb(0, 0, 0);
+	width: 500px;
+	height: 500px;
+	border: 2px solid black;
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+	border-radius: 300px;
+	z-index: 10;
+}
+
+earL {
+	
+	background-color: rgb(0, 0, 0);
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+	margin: 0 auto;
+	position: relative;
+	top: -440px;
+	left: -304px;
+	border-radius: 300px;
+}
+
+earLL {
+	
+	background-color: rgb(0, 0, 0);
+	width: 254px;
+	height: 300px;
+	border: 6px solid rgb(83, 117, 157);
+	margin: 0 auto;
+	position: relative;
+	top: -3100px;
+	left: -304px;
+	border-radius: 300px;
+	border-left-color: black;
+	border-right-color: black;
+}
+
+earR {
+	
+	background-color: rgb(0, 0, 0);
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+	margin: 0 auto;
+	position: relative;
+	top: -740px;
+	left: 304px;
+	border-radius: 300px;
+}
+
+earRR {
+	
+	background-color: rgb(0, 0, 0);
+	width: 254px;
+	height: 300px;
+	border: 6px solid rgb(83, 117, 157);
+	margin: 0 auto;
+	position: relative;
+	top: -3410px;
+	left: 307px;
+	border-radius: 300px;
+	border-left-color: black;
+	border-right-color: black;
+}
+
+face1 {
+	
+	background-color: rgb(252, 226, 211);
+	width: 200px;
+	height: 300px;
+	border: 2px solid black;
+	margin: 0 auto;
+	position: relative;
+	top: -890px;
+	left: -60px;
+	border-radius: 125px;
+	z-index: 14;
+}
+
+face2 {
+	
+	background-color: rgb(252, 226, 211);
+	width: 200px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: -1190px;
+	left: 79px;
+	border-radius: 125px;
+	z-index: 14;
+	
+}
+
+face3 {
+	
+	background-color: rgb(252, 226, 211);
+	width: 405px;
+	height: 248px;
+	border: 4px solid rgb(177, 107, 73);
+	margin: 0 auto;
+	position: relative;
+	top: -1284px;
+	left: 0;
+	border-radius: 325px;
+	z-index: 15;
+}
+
+eyeL {
+	
+	background-color: white;
+	width: 40px;
+	height: 138px;
+	border: 4px solid rgb(177, 107, 73);
+	margin: 0 auto;
+	position: relative;
+	top: -1657px;
+	left: 64px;
+	border-radius: 300px;
+	transform:rotate(3deg);
+	z-index: 28;
+}
+
+eyeR {
+	
+	background-color: white;
+	width: 40px;
+	height: 138px;
+	border: 4px solid rgb(177, 107, 73);
+	margin: 0 auto;
+	position: relative;
+	top: -1803px;
+	left: -64px;
+	border-radius: 300px;
+	transform:rotate(-3deg);
+	z-index: 28;
+}
+
+eyeLL {
+	
+	background-color: black;
+	width: 23px;
+	height: 58px;
+	border: 1px solid black;
+	margin: 0 auto;
+	position: relative;
+	top: -1869px;
+	left: -54px;
+	border-radius: 300px;
+	transform:rotate(-3deg);
+	cursor: pointer;
+	z-index: 28;
+}
+
+eyeLL:hover {
+	transition: 2s;
+	background: linear-gradient(to top, white, black);
+}
+
+eyeRR {
+	
+	
+	width: 23px;
+	height: 58px;
+	border: 1px solid black;
+	margin: 0 auto;
+	position: relative;
+	top: -1929px;
+	left: 55px;
+	border-radius: 300px;
+	transform:rotate(3deg);
+	background-color: black;
+	cursor: pointer;
+	z-index: 28;
+}
+
+eyeRR:hover {
+	transition: 2s;
+	background: linear-gradient(to top, white, black);
+}
+
+nose {
+		
+	background-color: rgb(252, 226, 211);
+	width: 200px;
+	height: 200px;
+	border: 5px solid rgb(177, 107, 73);
+	margin: 0 auto;
+	position: relative;
+	top: -1940px;
+	left: 0px;
+	border-radius: 300px;
+	border-left-color: rgb(252, 226, 211);
+	border-right-color: rgb(252, 226, 211);
+	border-bottom-color: rgb(252, 226, 211);
+	z-index: 28;
+}
+
+nose1 {
+	
+	background-color: rgb(0, 0, 0);
+	width: 120px;
+	height: 105px;
+	border: 1px solid black;
+	margin: 0 auto;
+	position: relative;
+	top: -2137px;
+	left: 0px;
+	border-radius: 300px;
+	cursor: pointer;
+	z-index: 28;
+}
+
+nose1:hover {
+	transition: 3s;
+	width: 0%;
+	width: 25%;
+	height: 300px;
+	
+}
+	
+
+
+
+smile1 {
+	
+	background-color: rgb(252, 226, 211);
+	width: 315px;
+	height: 300px;
+	border: 5px solid rgb(177, 107, 73);
+	margin: 0 auto;
+	position: relative;
+	top: -2349px;
+	left: 6px;
+	border-radius: 300px;
+	z-index: 25;
+	border-left-color: rgb(252, 226, 211);
+	border-right-color: rgb(252, 226, 211);
+	border-top-color: rgb(252, 226, 211);
+}
+
+smile2 {
+	cursor: pointer;
+	background-color: rgb(161, 76, 73);
+	width: 113px;
+	height: 150px;
+	border: 3px solid rgb(124, 50, 51);
+	margin: 0 auto;
+	position: relative;
+	top: -2397px;
+	left: 6px;
+	border-radius: 300px;
+	z-index: 20;
+	box-shadow: inset 1px 1px 17px 0px #351a0c;
+        background-color: #c75454;
+	transition: 3s;
+	width:7%;
+	
+	
+}
+
+smile2:hover {
+	transition: 3s;
+	width: 0%;
+	width: 50%;
+	height: 50px;
+	background: linear-gradient(to top, rgb(161, 76, 73), black);
+}
