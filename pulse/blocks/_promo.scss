@@ -1,0 +1,115 @@
+.promo {
+    min-height: 450px;
+    padding: 21px 0 93px 0;
+    background: url(../img/bg1.jpg) center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+    }
+    &__header {
+        font-size: 42px;
+        font-weight: bold;
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 42px;
+    }
+    &__subheader {
+        margin-top: 17px;
+        font-size: 24px;
+        font-weight: 500;
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 42px;
+    }
+    &__icons {
+        margin-top: 65px;
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon {
+        width: 108px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__link {
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffffff;
+        margin-top: 18px;
+
+        a {
+            text-transform: uppercase;
+            text-decoration: underline;
+            color: #ffffff;
+
+
+        }
+    }
+}
+
+.promo2 {
+    min-height: 270px;
+    padding: 70px 0 78px 0;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    &__header {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: #0d0d0d;
+    }
+    &__icons {
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon {
+        width: 247px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #0d0d0d;
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        &__text {
+            margin-top: 23px;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+            color: #0d0d0d;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 38px;
+        }
+        .love {
+            text-decoration: underline;
+            color: #ff0000;
+            margin-top: 0;
+            margin-left: 0;
+        }
+    }
+
+
+}

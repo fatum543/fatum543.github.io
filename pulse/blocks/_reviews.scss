@@ -1,0 +1,51 @@
+.review {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    img {
+        display: block;
+    }
+    &__descr {
+        margin-left: 60px;
+        &_name {
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0d0d0d;
+        }
+        &_marafon {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #646464;
+        }
+        &_text {
+            margin-top: 19px;
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0d0d0d;
+        }
+
+    }
+    
+}
+
+span {
+    display: block;
+    margin-left: 231px;
+    margin-top: -30px;
+}
